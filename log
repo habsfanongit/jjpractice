@@ -1,0 +1,247 @@
+
+Version: 28.8.1
+
+Shell: shell (5.9)
+
+Prompt:
+
+~/jj-practice/three nn  ~1 ❯ 
+
+Segments:
+
+ConsoleTitle(false)                        -   0 ms
+Python(false)                              -  24 ms
+Path(true)                                 -   0 ms
+Git(false)                                 -   0 ms
+Jujutsu(true)                              -  27 ms
+Executiontime(false)                       -   0 ms
+Text(true)                                 -   0 ms
+
+Run duration: 55.471542ms
+
+Cache path: /Users/habsfan/.cache/oh-my-posh
+
+Config path: /Users/habsfan/.config/omp/zen.yml
+
+Logs:
+
+[DEBUG] 16:07:56.490 debug.go:39 → logging enabled, raw mode: true
+[DEBUG] 16:07:56.491 store.go:]:141 → (session) key not found: prompt_count_cache
+[TRACE] 16:07:56.491 store.go:](session prompt_count_cache) - 15.292µs
+[TRACE] 16:07:56.491 terminal.go:setPromptCount() - 21.083µs
+[TRACE] 16:07:56.491 terminal.go:GOOS() - 84ns
+[DEBUG] 16:07:56.491 terminal.go:setPwd:102 → /Users/habsfan/dev/go/projects/jj-practice/three
+[TRACE] 16:07:56.491 terminal.go:setPwd() - 22.5µs
+[TRACE] 16:07:56.491 terminal.go:Init() - 52.417µs
+[DEBUG] 16:07:56.491 home.go:12 → /Users/habsfan
+[TRACE] 16:07:56.491 path.go:Path() - 16.291µs
+[DEBUG] 16:07:56.491 store.go:init:94 → (device) loading INITVERSIONZSH
+[DEBUG] 16:07:56.491 store.go:init:94 → (device) loading DSC_CONFIGURATION
+[DEBUG] 16:07:56.491 store.go:init:94 → (device) loading environment_platform
+[DEBUG] 16:07:56.491 store.go:init:94 → (device) loading is_wsl
+[DEBUG] 16:07:56.491 store.go:init:94 → (device) loading DSC_SHELL
+[TRACE] 16:07:56.491 store.go:init(device omp.cache) - 194.708µs
+[TRACE] 16:07:56.491 init.go:SessionID() - 625ns
+[TRACE] 16:07:56.491 path.go:Path() - 42ns
+[DEBUG] 16:07:56.491 store.go:init:94 → (session) loading toggle_cache
+[DEBUG] 16:07:56.491 store.go:init:94 → (session) loading CONFIG
+[DEBUG] 16:07:56.491 store.go:init:94 → (session) loading template_cache
+[DEBUG] 16:07:56.491 store.go:init:94 → (session) loading prompt_count_cache
+[DEBUG] 16:07:56.491 store.go:init:94 → (session) loading CONFIG_SOURCE
+[TRACE] 16:07:56.491 store.go:init(session zsh.4a56f45c-30d2-46e4-8e6d-3d7d7e5fd13b.omp.cache) - 106.792µs
+[DEBUG] 16:07:56.491 store.go:]:141 → (device) key not found: reload
+[TRACE] 16:07:56.491 store.go:](device reload) - 4.042µs
+[DEBUG] 16:07:56.491 store.go:]:154 → (session) found entry: CONFIG - /gH5fwMBAQZDb25maWcB/4AAAR8BB1BhbGV0dGUB/4IAAQtEZWJ1Z1Byb21wdAH/hAABA1ZhcgH/jgABCFBhbGV0dGVzAf+QAAEJVmFsaWRMaW5lAf+EAAEPU2Vjb25kYXJ5UHJvbXB0Af+EAAEPVHJhbnNpZW50UHJvbXB0Af+EAAEJRXJyb3JMaW5lAf+EAAEETWFwcwH/lAABB1VwZ3JhZGUB/5gAAQdFeHRlbmRzAQwAAQtBY2NlbnRDb2xvcgEMAAEUQ29uc29sZVRpdGxlVGVtcGxhdGUBDAABA1BXRAEMAAEGU291cmNlAQwAAQZGb3JtYXQBDAABElRlcm1pbmFsQmFja2dyb3VuZAEMAAEOVG9vbFRpcHNBY3Rpb24BDAABBkJsb2NrcwH/ngABBUN5Y2xlAf+iAAENSVRlcm1GZWF0dXJlcwH/pAABCFRvb2x0aXBzAf+cAAEHVmVyc2lvbgEEAAENTWlncmF0ZUdseXBocwECAAEFQXN5bmMBAgABEFNoZWxsSW50ZWdyYXRpb24BAgABCkZpbmFsU3BhY2UBAgABDVVwZ3JhZGVOb3RpY2UBAgABDlBhdGNoUHdzaEJsZWVkAQIAAQtBdXRvVXBncmFkZQECAAEXRW5hYmxlQ3Vyc29yUG9zaXRpb25pbmcBAgAAABf/gQQBAQdQYWxldHRlAf+CAAEMAQwAAP4CFf+DAwEBB1NlZ21lbnQB/4QAASIBB09wdGlvbnMB/4YAAQpQcm9wZXJ0aWVzAf+GAAEFQ2FjaGUB/4gAAQVBbGlhcwEMAAEOTGVhZGluZ0RpYW1vbmQBDAABD1RyYWlsaW5nRGlhbW9uZAEMAAEIVGVtcGxhdGUBDAABCkZvcmVncm91bmQBDAABDlRlbXBsYXRlc0xvZ2ljAQwAAQ9Qb3dlcmxpbmVTeW1ib2wBDAABCkJhY2tncm91bmQBDAABBkZpbGxlcgEMAAEEVHlwZQEMAAEFU3R5bGUBDAABFkxlYWRpbmdQb3dlcmxpbmVTeW1ib2wBDAABE0ZvcmVncm91bmRUZW1wbGF0ZXMB/4oAAQRUaXBzAf+MAAETQmFja2dyb3VuZFRlbXBsYXRlcwH/igABCVRlbXBsYXRlcwH/igABDkV4Y2x1ZGVGb2xkZXJzAf+MAAEOSW5jbHVkZUZvbGRlcnMB/4wAAQVOZWVkcwH/jAABB1RpbWVvdXQBBAABCE1heFdpZHRoAQQAAQhNaW5XaWR0aAEEAAEIRHVyYXRpb24BBAABCk5hbWVMZW5ndGgBBAABBUluZGV4AQQAAQtJbnRlcmFjdGl2ZQECAAEHRW5hYmxlZAECAAEHTmV3bGluZQECAAEPSW52ZXJ0UG93ZXJsaW5lAQIAAQVGb3JjZQECAAEHVG9nZ2xlZAECAAAAE/+FBAEBA01hcAH/hgABDAEQAAAt/4cDAQEFQ2FjaGUB/4gAAQIBCER1cmF0aW9uAQwAAQhTdHJhdGVneQEMAAAAEv+JAgEBBExpc3QB/4oAAQwAABb/iwIBAQhbXXN0cmluZwH/jAABDAAAJ/+NBAEBF21hcFtzdHJpbmddaW50ZXJmYWNlIHt9Af+OAAEMARAAAC3/jwMBAQhQYWxldHRlcwH/kAABAgEETGlzdAH/kgABCFRlbXBsYXRlAQwAAAAp/5EEAQEYbWFwW3N0cmluZ11jb2xvci5QYWxldHRlAf+SAAEMAf+CAAA//5MDAQEGQ29uZmlnAf+UAAEDAQhVc2VyTmFtZQH/lgABCEhvc3ROYW1lAf+WAAEJU2hlbGxOYW1lAf+WAAAAE/+VBAEBA01hcAH/lgABDAEMAABc/5cDAQEGQ29uZmlnAf+YAAEGAQZTb3VyY2UBDAABCEludGVydmFsAQwAAQZMYXRlc3QBDAABBEF1dG8BAgABDURpc3BsYXlOb3RpY2UBAgABBUZvcmNlAQIAAAAe/50CAQEPW10qY29uZmlnLkJsb2NrAf+eAAH/mgAA/6r/mQMBAv+aAAEMAQRUeXBlAQwAAQlBbGlnbm1lbnQBDAABBkZpbGxlcgEMAAEIT3ZlcmZsb3cBDAABDkxlYWRpbmdEaWFtb25kAQwAAQ9UcmFpbGluZ0RpYW1vbmQBDAABCFNlZ21lbnRzAf+cAAEITWF4V2lkdGgBBAABCE1pbldpZHRoAQQAAQdOZXdsaW5lAQIAAQVGb3JjZQECAAEFSW5kZXgBBAAAACD/mwIBARFbXSpjb25maWcuU2VnbWVudAH/nAAB/4QAABT/oQIBAQVDeWNsZQH/ogAB/6AAACr/nwMBAv+gAAECAQpCYWNrZ3JvdW5kAQwAAQpGb3JlZ3JvdW5kAQwAAAAb/6MCAQENSVRlcm1GZWF0dXJlcwH/pAABDAAA/gVG/4AGBwfina/ina8gAQdtYWdlbnRhAwt0cmFuc3BhcmVudAABBwTina8gBAt0cmFuc3BhcmVudAUCG3t7aWYgZ3QgLkNvZGUgMH19cmVke3tlbmR9fR97e2lmIGVxIC5Db2RlIDB9fW1hZ2VudGF7e2VuZH19AAMBA2NkbgEEMTY4aAAFIS9Vc2Vycy9zYWdlaWwvLmNvbmZpZy9vbXAvemVuLnltbAEEeWFtbAMDAQZwcm9tcHQBBGxlZnQFBAEDDGRpc3BsYXlfbW9kZQZzdHJpbmcMCQAHY29udGV4dBFmZXRjaF92aXJ0dWFsX2VudgRib29sAgIAAQxob21lX2VuYWJsZWQEYm9vbAICAAAGViDuiLUge3sgaWYgLkVycm9yIH19e3sgLkVycm9yIH19e3sgZWxzZSB9fXt7IGlmIC5WZW52IH19e3sgLlZlbnYgfX17eyBlbmQgfX17eyBlbmQgfX0gBgZweXRob24BBXBsYWluAAEFC2ZvbGRlcl9pY29uBnN0cmluZwwCAAAJaG9tZV9pY29uBnN0cmluZwwDAAF+CW1heF9kZXB0aANpbnQEAgAEBXN0eWxlBnN0cmluZwwQAA5hZ25vc3Rlcl9zaG9ydA5jYWNoZV9kdXJhdGlvbgZzdHJpbmcMBgAEbm9uZQYLe3sgLlBhdGggfX0EC3RyYW5zcGFyZW50AgRwYXRoAQVwbGFpbgABBQ5jYWNoZV9kdXJhdGlvbgZzdHJpbmcMBgAEbm9uZQtjb21taXRfaWNvbgZzdHJpbmcMAwABQA9kaXNhYmxlX3dpdGhfamoEYm9vbAICAAEMZmV0Y2hfc3RhdHVzBGJvb2wCAgABC2JyYW5jaF9pY29uBnN0cmluZwwCAAAG/5Ige3sgLkhFQUQgfX17eyBpZiBvciAoLldvcmtpbmcuQ2hhbmdlZCkgKC5TdGFnaW5nLkNoYW5nZWQpIH19Knt7IGVuZCB9fSA8Y3lhbj57eyBpZiBndCAuQmVoaW5kIDAgfX3ih6N7eyBlbmQgfX17eyBpZiBndCAuQWhlYWQgMCB9feKHoXt7IGVuZCB9fTwvPgEGcDpncmV5Awt0cmFuc3BhcmVudAIDZ2l0AQVwbGFpbgABBQphaGVhZF9pY29uBnN0cmluZwwFAAPih6ERY2hhbmdlX2lkX21pbl9sZW4DaW50BAIAAhNmZXRjaF9haGVhZF9jb3VudGVyBGJvb2wCAgABDGZldGNoX3N0YXR1cwRib29sAgIAARNpZ25vcmVfd29ya2luZ19jb3B5BGJvb2wCAgAACgt0cmFuc3BhcmVudAIHanVqdXRzdQEFcGxhaW4AAAEHcnByb21wdAMGaGlkZGVuAwEBBA9hbHdhc3lzX2VuYWJsZWQEYm9vbAICAAEOY2FjaGVfZHVyYXRpb24Gc3RyaW5nDAYABG5vbmUFc3R5bGUGc3RyaW5nDAcABXJvdW5kCXRocmVzaG9sZANpbnQEAgBkBhJ7eyAuRm9ybWF0dGVkTXMgfX0BBnllbGxvdwMEYmx1ZQINZXhlY3V0aW9udGltZQAAAQZwcm9tcHQBBGxlZnQFAQEBDmNhY2hlX2R1cmF0aW9uBnN0cmluZwwGAARub25lBhd7eyAuRW52LlNIRUxMX1BST01QVCB9fQQLdHJhbnNwYXJlbnQCBHRleHQBBXBsYWluAgIbe3tpZiBndCAuQ29kZSAwfX1yZWR7e2VuZH19H3t7aWYgZXEgLkNvZGUgMH19bWFnZW50YXt7ZW5kfX0AAAQGBAEA
+[TRACE] 16:07:56.491 store.go:](session CONFIG) - 11.292µs
+[TRACE] 16:07:56.491 gob.go:Restore() - 78.916µs
+[TRACE] 16:07:56.491 gob.go:Get() - 99µs
+[TRACE] 16:07:56.491 terminal.go:Shell() - 83ns
+[TRACE] 16:07:56.491 terminal.go:Flags() - 42ns
+[DEBUG] 16:07:56.491 store.go:]:154 → (session) found entry: template_cache - {map[Jujutsu:0x140000fae70 Path:0x14000180480 Text:0x140002ed7a0] map[] ~/dev/go/projects/jj-practice/three three  habsfan MBP 5.9 zsh /Users/habsfan/dev/go/projects/jj-practice/three darwin 28.8.1 62 1 0 0 false false}
+[TRACE] 16:07:56.491 store.go:](session template_cache) - 18.542µs
+[TRACE] 16:07:56.491 cache.go:restoreCache() - 22.041µs
+[DEBUG] 16:07:56.491 writer.go:Init:107 → terminal program: ghostty
+[DEBUG] 16:07:56.491 writer.go:Init:108 → terminal shell: shell
+[DEBUG] 16:07:56.491 terminal.go:Getenv:64 → NO DATA
+[TRACE] 16:07:56.491 terminal.go:Getenv(OMP_CACHE_DISABLED) - 2.875µs
+[DEBUG] 16:07:56.491 store.go:]:141 → (device) key not found: accent_color
+[TRACE] 16:07:56.491 store.go:](device accent_color) - 4.208µs
+[ERROR] 16:07:56.517 terminal.go:RunCommand:277 → exit status 1
+[DEBUG] 16:07:56.517 terminal.go:RunCommand:280 ↓
+    2025-12-30 16:07:56.517 defaults[96917:1354968] 
+    The domain/default pair of (kCFPreferencesAnyApplication, AppleAccentColor) does not exist
+    
+[TRACE] 16:07:56.517 terminal.go:RunCommand(defaults read -g AppleAccentColor) - 26.265917ms
+[ERROR] 16:07:56.517 colors_darwin.go:GetAccentColor:14 → exit status 1
+[TRACE] 16:07:56.517 colors.go:SetAccentColor() - 26.2815ms
+[TRACE] 16:07:56.517 terminal.go:Shell() - 42ns
+[DEBUG] 16:07:56.517 terminal.go:Getenv:64 → 5.9
+[TRACE] 16:07:56.517 terminal.go:Getenv(POSH_SHELL_VERSION) - 3.708µs
+[DEBUG] 16:07:56.517 debug.go:PrintDebug:24 → segment: Title
+[TRACE] 16:07:56.517 terminal.go:Flags() - 84ns
+[DEBUG] 16:07:56.517 terminal.go:Getenv:64 → NO DATA
+[TRACE] 16:07:56.517 terminal.go:Getenv(POSH_CURSOR_LINE) - 2.417µs
+[DEBUG] 16:07:56.517 terminal.go:Getenv:64 → NO DATA
+[TRACE] 16:07:56.517 terminal.go:Getenv(POSH_CURSOR_COLUMN) - 1.334µs
+[TRACE] 16:07:56.517 terminal.go:Flags() - 0s
+[TRACE] 16:07:56.517 terminal.go:Flags() - 0s
+[TRACE] 16:07:56.517 terminal.go:Flags() - 42ns
+[DEBUG] 16:07:56.517 home.go:12 → /Users/habsfan
+[TRACE] 16:07:56.517 terminal.go:Flags() - 83ns
+[TRACE] 16:07:56.517 terminal.go:GOOS() - 0s
+[DEBUG] 16:07:56.517 segment.go:Execute:172 → segment: Jujutsu
+[DEBUG] 16:07:56.517 store.go:]:154 → (session) found entry: toggle_cache - map[]
+[TRACE] 16:07:56.517 store.go:](session toggle_cache) - 6.375µs
+[DEBUG] 16:07:56.517 home.go:12 → /Users/habsfan
+[TRACE] 16:07:56.517 terminal.go:GOOS() - 41ns
+[DEBUG] 16:07:56.517 segment.go:isToggled:293 → no toggles found
+[DEBUG] 16:07:56.517 segment.go:Execute:172 → segment: Path
+[TRACE] 16:07:56.517 terminal.go:Flags() - 41ns
+[TRACE] 16:07:56.517 terminal.go:Flags() - 125ns
+[DEBUG] 16:07:56.517 store.go:]:154 → (session) found entry: toggle_cache - map[]
+[TRACE] 16:07:56.517 store.go:](session toggle_cache) - 6.25µs
+[DEBUG] 16:07:56.517 map.go:Bool:120 → fetch_status: true
+[DEBUG] 16:07:56.517 segment.go:isToggled:293 → no toggles found
+[DEBUG] 16:07:56.517 home.go:12 → /Users/habsfan
+[TRACE] 16:07:56.517 terminal.go:GOOS() - 42ns
+[DEBUG] 16:07:56.517 home.go:12 → /Users/habsfan
+[DEBUG] 16:07:56.517 segment.go:Execute:172 → segment: Python
+[TRACE] 16:07:56.517 terminal.go:GOOS() - 41ns
+[DEBUG] 16:07:56.517 segment.go:Execute:172 → segment: Git
+[DEBUG] 16:07:56.517 store.go:]:154 → (session) found entry: toggle_cache - map[]
+[DEBUG] 16:07:56.517 map.go:Bool:112 → display_cygpath: false
+[DEBUG] 16:07:56.517 store.go:]:154 → (session) found entry: toggle_cache - map[]
+[TRACE] 16:07:56.517 terminal.go:GOOS() - 0s
+e_cache) - 5.292µs
+[DEBUG] 16:07:56.517 segment.go:isToggled:293 → no toggles found
+[TRACE] 16:07:56.517 separator.go:Separator() - 42ns
+[TRACE] 16:07:56.517 store.go:](session toggle_cache) - 4.334µs
+[TRACE] 16:07:56.517 terminal.go:Shell() - 83ns
+[DEBUG] 16:07:56.517 segment.go:isToggled:293 → no toggles found
+[TRACE] 16:07:56.517 terminal.go:HasParentFilePath(.jj) - 16.375µs
+[DEBUG] 16:07:56.518 map.go:Bool:120 → disable_with_jj: true
+[DEBUG] 16:07:56.518 map.go:String:81 → display_mode: context
+[TRACE] 16:07:56.518 terminal.go:HasParentFilePath(.jj) - 5.208µs
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 42ns
+[DEBUG] 16:07:56.518 store.go:]:154 → (device) found entry: is_wsl - false
+[DEBUG] 16:07:56.518 map.go:Bool:112 → mapped_locations_enabled: true
+[TRACE] 16:07:56.518 store.go:](device is_wsl) - 14.916µs
+[DEBUG] 16:07:56.518 map.go:StringArray:199 → extensions: [*.py *.ipynb pyproject.toml venv.bak]
+[DEBUG] 16:07:56.518 map.go:String:77 → windows_registry_icon: 
+[DEBUG] 16:07:56.518 map.go:StringArray:199 → folders: [.venv venv virtualenv venv-win pyenv-win]
+[TRACE] 16:07:56.518 terminal_unix.go:IsWsl2() - 22.375µs
+[DEBUG] 16:07:56.518 home.go:12 → /Users/habsfan
+[DEBUG] 16:07:56.518 map.go:Bool:120 → home_enabled: false
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 42ns
+[TRACE] 16:07:56.518 separator.go:Separator() - 41ns
+[DEBUG] 16:07:56.518 home.go:12 → /Users/habsfan
+[DEBUG] 16:07:56.518 map.go:Bool:120 → fetch_virtual_env: true
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 42ns
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 0s
+[DEBUG] 16:07:56.518 map.go:String:81 → home_icon: ~
+[DEBUG] 16:07:56.518 map.go:KeyValueMap:187 → mapped_locations: map[]
+[TRACE] 16:07:56.518 separator.go:Separator() - 42ns
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 42ns
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 0s
+[TRACE] 16:07:56.518 separator.go:Separator() - 0s
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 42ns
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 0s
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 0s
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 0s
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 42ns
+[DEBUG] 16:07:56.518 map.go:String:77 → gitdir_format: 
+[DEBUG] 16:07:56.518 map.go:String:81 → style: agnoster_short
+[DEBUG] 16:07:56.518 map.go:Bool:112 → display_root: false
+[DEBUG] 16:07:56.518 map.go:Int:164 → max_depth: 2
+[DEBUG] 16:07:56.518 map.go:Bool:112 → hide_root_location: false
+[DEBUG] 16:07:56.518 map.go:String:81 → folder_icon: 
+[DEBUG] 16:07:56.518 map.go:StringArray:199 → cycle: []
+[DEBUG] 16:07:56.518 map.go:String:77 → folder_separator_template: 
+[DEBUG] 16:07:56.518 map.go:String:77 → folder_separator_icon: /
+[DEBUG] 16:07:56.518 map.go:Bool:112 → cycle_folder_separator: false
+[DEBUG] 16:07:56.518 map.go:String:77 → folder_format: %s
+[DEBUG] 16:07:56.518 map.go:String:77 → edge_format: %s
+[DEBUG] 16:07:56.518 map.go:String:77 → left_format: %s
+[DEBUG] 16:07:56.518 map.go:String:77 → right_format: %s
+[TRACE] 16:07:56.518 terminal.go:Flags() - 0s
+[TRACE] 16:07:56.518 terminal.go:GOOS() - 0s
+[TRACE] 16:07:56.518 terminal.go:StackCount() - 42ns
+[TRACE] 16:07:56.518 terminal_unix.go:DirIsWritable(/Users/habsfan/dev/go/projects/jj-practice/three) - 10.125µs
+[DEBUG] 16:07:56.531 terminal.go:CommandPath:304 → /opt/homebrew/bin/jj
+[TRACE] 16:07:56.531 terminal.go:CommandPath(jj) - 13.689416ms
+[TRACE] 16:07:56.531 terminal.go:HasCommand(jj) - 13.692333ms
+[DEBUG] 16:07:56.531 home.go:12 → /Users/habsfan
+[TRACE] 16:07:56.531 terminal.go:GOOS() - 0s
+[TRACE] 16:07:56.531 terminal.go:GOOS() - 0s
+[DEBUG] 16:07:56.531 map.go:KeyValueMap:187 → status_formats: map[]
+[DEBUG] 16:07:56.531 map.go:Int:164 → change_id_min_len: 1
+[DEBUG] 16:07:56.531 map.go:Bool:120 → ignore_working_copy: false
+[ERROR] 16:07:56.531 terminal.go:CommandPath:308 → exec: "python": executable file not found in $PATH
+[TRACE] 16:07:56.531 terminal.go:CommandPath(python) - 13.8195ms
+[DEBUG] 16:07:56.541 terminal.go:CommandPath:304 → /opt/homebrew/bin/python3
+[TRACE] 16:07:56.541 terminal.go:CommandPath(python3) - 9.526166ms
+[DEBUG] 16:07:56.542 terminal.go:HasFilesInDir:151 → false
+[TRACE] 16:07:56.542 terminal.go:HasFilesInDir(pyvenv.cfg) - 710.541µs
+[DEBUG] 16:07:56.542 terminal.go:HasFilesInDir:151 → false
+[TRACE] 16:07:56.542 terminal.go:HasFilesInDir(pyvenv.cfg) - 51.458µs
+[DEBUG] 16:07:56.542 map.go:Bool:112 → folder_name_fallback: true
+[DEBUG] 16:07:56.542 map.go:StringArray:199 → default_venv_names: [.venv venv]
+[DEBUG] 16:07:56.542 terminal.go:Getenv:64 → NO DATA
+[TRACE] 16:07:56.542 terminal.go:Getenv(VIRTUAL_ENV) - 2.667µs
+[DEBUG] 16:07:56.542 terminal.go:Getenv:64 → NO DATA
+[TRACE] 16:07:56.542 terminal.go:Getenv(CONDA_ENV_PATH) - 1.458µs
+[DEBUG] 16:07:56.542 terminal.go:Getenv:64 → NO DATA
+[TRACE] 16:07:56.542 terminal.go:Getenv(CONDA_DEFAULT_ENV) - 1.333µs
+[DEBUG] 16:07:56.542 terminal.go:HasFilesInDir:151 → false
+[TRACE] 16:07:56.542 terminal.go:HasFilesInDir(*.py) - 34.333µs
+[DEBUG] 16:07:56.542 terminal.go:HasFilesInDir:151 → false
+[TRACE] 16:07:56.542 terminal.go:HasFilesInDir(*.ipynb) - 2.667µs
+[DEBUG] 16:07:56.542 terminal.go:HasFilesInDir:151 → false
+[TRACE] 16:07:56.542 terminal.go:HasFilesInDir(pyproject.toml) - 2.167µs
+[DEBUG] 16:07:56.542 terminal.go:HasFilesInDir:151 → false
+[TRACE] 16:07:56.542 terminal.go:HasFilesInDir(venv.bak) - 1.916µs
+[DEBUG] 16:07:56.542 terminal.go:HasFolder:180 → false
+[TRACE] 16:07:56.542 terminal.go:HasFolder(.venv) - 5.75µs
+[DEBUG] 16:07:56.542 terminal.go:HasFolder:180 → false
+[TRACE] 16:07:56.542 terminal.go:HasFolder(venv) - 7.542µs
+[DEBUG] 16:07:56.542 terminal.go:HasFolder:180 → false
+[TRACE] 16:07:56.542 terminal.go:HasFolder(virtualenv) - 3.125µs
+[DEBUG] 16:07:56.542 terminal.go:HasFolder:180 → false
+[TRACE] 16:07:56.542 terminal.go:HasFolder(venv-win) - 2.375µs
+[DEBUG] 16:07:56.542 terminal.go:HasFolder:180 → false
+[TRACE] 16:07:56.542 terminal.go:HasFolder(pyenv-win) - 2.542µs
+[DEBUG] 16:07:56.542 map.go:StringArray:199 → tooling: [pyenv python python3 py]
+[DEBUG] 16:07:56.542 text.go:patchTemplate:149 → {{ .Data.Path }}
+[DEBUG] 16:07:56.545 terminal.go:RunCommand:280 ↓
+    nn
+    M home.html
+[TRACE] 16:07:56.545 terminal.go:RunCommand(jj --repository /Users/habsfan/dev/go/projects/jj-practice/three --no-pager --color never log -r @ --no-graph -T change_id.shortest(1) ++ "\n" ++ diff.summary()) - 13.706667ms
+[DEBUG] 16:07:56.545 text.go:patchTemplate:149 →  {{.Data.ChangeID}}{{if .Data.Working.Changed}}  {{ .Data.Working.String }}{{ end }} 
+[TRACE] 16:07:56.546 terminal.go:Shell() - 83ns
+[TRACE] 16:07:56.546 terminal.go:Flags() - 42ns
+[DEBUG] 16:07:56.546 home.go:12 → /Users/habsfan
+[TRACE] 16:07:56.546 terminal.go:GOOS() - 42ns
+[DEBUG] 16:07:56.546 segment.go:Execute:172 → segment: Executiontime
+[DEBUG] 16:07:56.546 store.go:]:154 → (session) found entry: toggle_cache - map[]
+[TRACE] 16:07:56.546 store.go:](session toggle_cache) - 4.833µs
+[DEBUG] 16:07:56.546 segment.go:isToggled:293 → no toggles found
+[DEBUG] 16:07:56.546 map.go:Bool:112 → always_enabled: false
+[TRACE] 16:07:56.546 terminal.go:ExecutionTime() - 42ns
+[DEBUG] 16:07:56.546 map.go:Float64:138 → threshold: 50.000000
+[TRACE] 16:07:56.546 terminal.go:Flags() - 0s
+[DEBUG] 16:07:56.546 home.go:12 → /Users/habsfan
+[TRACE] 16:07:56.546 terminal.go:GOOS() - 42ns
+[DEBUG] 16:07:56.546 segment.go:Execute:172 → segment: Text
+[DEBUG] 16:07:56.546 store.go:]:154 → (session) found entry: toggle_cache - map[]
+[TRACE] 16:07:56.546 store.go:](session toggle_cache) - 2.166µs
+[DEBUG] 16:07:56.546 segment.go:isToggled:293 → no toggles found
+[DEBUG] 16:07:56.546 text.go:patchTemplate:149 → {{ (call .Getenv "SHELL_PROMPT") }}
+[DEBUG] 16:07:56.546 terminal.go:Getenv:64 → ❯
+[TRACE] 16:07:56.546 terminal.go:Getenv(SHELL_PROMPT) - 15.125µs
+[DEBUG] 16:07:56.546 text.go:patchTemplate:149 → {{if gt .Code 0}}red{{end}}
+[DEBUG] 16:07:56.546 text.go:patchTemplate:149 → {{if eq .Code 0}}magenta{{end}}
+[DEBUG] 16:07:56.546 text.go:patchTemplate:149 → {{if gt .Code 0}}red{{end}}
+[DEBUG] 16:07:56.546 text.go:patchTemplate:149 → {{if eq .Code 0}}magenta{{end}}
+[TRACE] 16:07:56.546 terminal.go:Shell() - 125ns
+[TRACE] 16:07:56.546 terminal.go:Shell() - 42ns
+[TRACE] 16:07:56.546 path.go:Path() - 42ns
