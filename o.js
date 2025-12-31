@@ -1,3 +1,4 @@
-function hello_world() {
-  console.log("Hello, world!");
+
+function goodbye_world() {
+  console.log("Goodbye, world!");
 }
